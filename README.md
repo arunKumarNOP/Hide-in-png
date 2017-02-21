@@ -8,7 +8,7 @@ Only python 2.7 is required, you can use python3 also just change those "print" 
 
 Usage
 ====
-<pre>png_hiding.py <input.png> <payload_file> <output.png> </pre>
+<pre>png_hiding.py input.png payload_file output.png </pre>
 
 Ex:<br>
 
