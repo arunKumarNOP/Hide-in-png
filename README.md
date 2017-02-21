@@ -1,6 +1,6 @@
 Hide files in PNG
 ====
-Using this script you can hide any file in a PNG image. The script creats a fake chunk and add the file to that chunk which is ignored by PNG processing tools but it can be retrived later.
+Using this script you can hide any file in a PNG image. The script creates a fake chunk and add the file to that chunk which is ignored by PNG processing tools but it can be retrived later.
 
 Requirement
 ====
@@ -27,6 +27,8 @@ Start: 16 Count: 1266
 We get information like <b>Start</b> and <b>Count</b> which is offset at which our payload is written and no of bytes that are written respectively.
 
 You can retrive the content via several method:
+
+For the above example using values <b>Start: 16 and Count: 1266</b> on the out.png file.
 
 * Using 'dd'
 <pre>dd if=out.png of=recovered_file.py bs=1 skip=16 count=1266</pre>
